@@ -11,13 +11,34 @@
     font-family: Exo;
   }
 
+ body{
+     background-image: url("./pexels-francesco-ungaro-998641.jpg") 
+  }
+
   .main{
     width: 100%;
-    height: 100vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(22, 18, 18);
+   
+  }
+
+ h1 {
+    font-weight: 200;
+    margin: 0.4em 0;
+    text-align: center;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    padding: 1em 2em;
+    font-size: 18px;
+  }
+  h1 { font-size: 3.5em; }
+
+
+  span{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
   }
 
   .profile-card{
